@@ -1,0 +1,8 @@
+#MAC OS files
+.DS_Store
+
+# Too voluminous files
+rna1.csv
+rna2.csv
+
+__pycache__/
