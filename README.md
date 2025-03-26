@@ -23,3 +23,34 @@ Describes the structure and contents of the `rna/` folder.
 
 ### `Notebook.ipynb`
 Jupyter notebook containing the full analysis pipeline: dataset preparation, bias detection, feature selection, and other exploratory work.
+
+
+---
+
+### `Notebook.ipynb`
+- **Main analysis notebook** showcasing data loading, bias discovery, feature engineering, and machine learning steps.  
+- **Key sections** typically include:
+
+  1. **Data Ingestion**
+     - Demonstrates how `.tsv` files from `rna/`, patient metadata (`sample_sheet.tsv`), and clinical files (`clinical.tsv`, `exposure.tsv`) are merged.
+     - Provides code cells for quick checks of missing data or file mismatches.
+
+  2.  **Bias Discovery**
+     - Analyzes potential imbalances in the dataset (e.g., how many Tumor vs Normal samples, how many missing demographic entries).
+     - Visualizations to understand main biases like unbalanced class, unbalanced ethnical patients, extremy high-dimensional data, ...
+
+  3. **Data Cleaning & Preprocessing**
+     - Handles missing values, normalizes, clips outliers, ...
+
+  4. **Feature Selection**
+     - Apply Mutual Information (MI Score) to select more relavant features and reduce dimensionality.
+
+  5. **Machine Learning Pipeline**
+     - Trains models (e.g. Logistic Regression) to predict tumor vs. normal or other clinical outcomes.
+     - Documents hyperparameters, cross-validation splits, and scoring metrics.
+
+  6. **Model Evaluation & Bias Checks**
+     - Presents performance metrics (accuracy, AUC) plus confusion matrices or classification reports.
+     - Discusses any remaining bias or imbalance issues — for instance, does the model over-predict Tumor?
+     - Testing feature importance to check reliability of the model.
+---
