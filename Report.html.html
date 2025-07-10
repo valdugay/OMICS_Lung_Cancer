@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>7f2e45f2d0014bbfa40a70cef0df8900</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="f32ab76d" class="cell markdown">
+<h1 id="luad-rna-seq--tumour-vs-normal">LUAD RNA-seq · Tumour vs
+Normal</h1>
+<h2 id="why-this-binary-task-is-too-easy">Why this binary task is
+<em>too</em> easy</h2>
+<p>Paper goal: demonstrate that very high AUROC reports on TCGA-LUAD
+often stem<br />
+from an <em>already separable</em> endpoint – any random gene panel
+works.</p>
+<p>We use the following evidence blocks</p>
+<table>
+<colgroup>
+<col style="width: 22%" />
+<col style="width: 40%" />
+<col style="width: 37%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Section</th>
+<th>Evidence block</th>
+<th>What it shows</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1</strong></td>
+<td>PCA (unsupervised)</td>
+<td>Classes nearly linearly separable</td>
+</tr>
+<tr class="even">
+<td><strong>2a</strong></td>
+<td>Single-gene AUROC histogram</td>
+<td>Thousands of genes are strong solo classifiers</td>
+</tr>
+<tr class="odd">
+<td><strong>2b / 2c</strong></td>
+<td>Model with <strong>top-100</strong> MI genes <strong>vs</strong>
+model with <strong>bottom-100</strong> (but non-zero) MI genes</td>
+<td>Even the <em>worst</em> informative genes work</td>
+</tr>
+<tr class="even">
+<td><strong>3</strong></td>
+<td>30× random-gene panels (100 genes)</td>
+<td>High AUROC is routine</td>
+</tr>
+<tr class="odd">
+<td><strong>4</strong></td>
+<td>Majority-class baseline</td>
+<td>Accuracy alone is meaningless</td>
+</tr>
+</tbody>
+</table>
+<p>Dataset: <strong>rna2.csv</strong> (601 samples × 60 001 columns) +
+<code>sample_sheet.tsv</code> + <code>clinical/clinical.tsv</code><br />
+Python ≥3.9, scikit-learn ≥1.4</p>
+</div>
+<div id="266724cf" class="cell code" data-execution_count="1">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> warnings, numpy <span class="im">as</span> np, pandas <span class="im">as</span> pd, matplotlib.pyplot <span class="im">as</span> plt, seaborn <span class="im">as</span> sns</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pathlib <span class="im">import</span> Path</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tqdm.auto <span class="im">import</span> tqdm</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection   <span class="im">import</span> StratifiedKFold, train_test_split</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing     <span class="im">import</span> StandardScaler</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.decomposition     <span class="im">import</span> PCA</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model      <span class="im">import</span> LogisticRegression</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.feature_selection <span class="im">import</span> mutual_info_classif</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics           <span class="im">import</span> roc_auc_score</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> imblearn.pipeline         <span class="im">import</span> Pipeline</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> imblearn.over_sampling    <span class="im">import</span> SMOTE</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.stats               <span class="im">import</span> ttest_ind      <span class="co"># only needed for MI-filter</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>warnings.filterwarnings(<span class="st">&quot;ignore&quot;</span>)</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>sns.<span class="bu">set</span>(style<span class="op">=</span><span class="st">&quot;whitegrid&quot;</span>)<span class="op">;</span>  plt.rcParams[<span class="st">&quot;figure.dpi&quot;</span>] <span class="op">=</span> <span class="dv">115</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>SEED          <span class="op">=</span> <span class="dv">42</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>RNG           <span class="op">=</span> np.random.default_rng(SEED)</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>N_SPLITS      <span class="op">=</span> <span class="dv">5</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>GENE_PREFIX   <span class="op">=</span> <span class="st">&quot;ENSG&quot;</span></span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/Users/ar-tomas.stone/Library/Python/3.9/lib/python/site-packages/tqdm/auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
+  from .autonotebook import tqdm as notebook_tqdm
+</code></pre>
+</div>
+</div>
+<div id="13c8f017" class="cell code" data-execution_count="10">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># ── 1 · Load files ───────────────────────────────────────────────────────────</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>rna     <span class="op">=</span> pd.read_csv(<span class="st">&quot;rna2.csv&quot;</span>)                       <span class="co"># 601 × 60 001</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>sample  <span class="op">=</span> pd.read_csv(<span class="st">&quot;sample_sheet.tsv&quot;</span>, sep<span class="op">=</span><span class="st">&quot;</span><span class="ch">\t</span><span class="st">&quot;</span>)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>clin_df <span class="op">=</span> (pd.read_csv(Path(<span class="st">&quot;clinical&quot;</span>)<span class="op">/</span><span class="st">&quot;clinical.tsv&quot;</span>, sep<span class="op">=</span><span class="st">&quot;</span><span class="ch">\t</span><span class="st">&quot;</span>)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>             .drop_duplicates(<span class="st">&quot;case_submitter_id&quot;</span>))</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>rna <span class="op">=</span> (rna</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>         .merge(sample[[<span class="st">&quot;File Name&quot;</span>,<span class="st">&quot;Case ID&quot;</span>]],</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>                left_on<span class="op">=</span><span class="st">&quot;case_id&quot;</span>, right_on<span class="op">=</span><span class="st">&quot;File Name&quot;</span>)</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>         .merge(clin_df[[<span class="st">&quot;case_submitter_id&quot;</span>,<span class="st">&quot;gender&quot;</span>,<span class="st">&quot;race&quot;</span>,<span class="st">&quot;ethnicity&quot;</span>]],</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>                left_on<span class="op">=</span><span class="st">&quot;Case ID&quot;</span>, right_on<span class="op">=</span><span class="st">&quot;case_submitter_id&quot;</span>, how<span class="op">=</span><span class="st">&quot;left&quot;</span>)</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>         .drop(columns<span class="op">=</span>[<span class="st">&quot;File Name&quot;</span>,<span class="st">&quot;case_submitter_id&quot;</span>,<span class="st">&quot;Case ID&quot;</span>]))</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> rna[<span class="st">&quot;Sample Type&quot;</span>]</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> rna.<span class="bu">filter</span>(regex<span class="op">=</span><span class="ss">f&quot;^</span><span class="sc">{</span>GENE_PREFIX<span class="sc">}</span><span class="ss">&quot;</span>)     <span class="co"># 60 660 gene columns</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> y.notna().<span class="bu">all</span>(), <span class="st">&quot;NaNs remain in label vector!&quot;</span></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>const_mask <span class="op">=</span> X.var(axis<span class="op">=</span><span class="dv">0</span>, ddof<span class="op">=</span><span class="dv">0</span>) <span class="op">==</span> <span class="dv">0</span>        <span class="co"># ddof=0 → population variance</span></span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>n_const    <span class="op">=</span> const_mask.<span class="bu">sum</span>()</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> n_const:</span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>    X <span class="op">=</span> X.loc[:, <span class="op">~</span>const_mask]</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Removed </span><span class="sc">{</span>n_const<span class="sc">}</span><span class="ss"> invariant genes  →  </span><span class="sc">{</span>X<span class="sc">.</span>shape[<span class="dv">1</span>]<span class="sc">}</span><span class="ss"> genes remain</span><span class="ch">\n</span><span class="ss">&quot;</span>)</span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;</span><span class="sc">{</span>X<span class="sc">.</span>shape[<span class="dv">0</span>]<span class="sc">}</span><span class="ss"> samples   |   </span><span class="sc">{</span>X<span class="sc">.</span>shape[<span class="dv">1</span>]<span class="sc">:,}</span><span class="ss"> genes&quot;</span>)</span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Class counts:</span><span class="ch">\n</span><span class="st">&quot;</span>, y.value_counts().rename({<span class="dv">1</span>:<span class="st">&quot;Tumour&quot;</span>,<span class="dv">0</span>:<span class="st">&quot;Normal&quot;</span>}), <span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Removed 2890 invariant genes  →  57770 genes remain
+
+598 samples   |   57,770 genes
+Class counts:
+ Sample Type
+Tumour    539
+Normal     59
+Name: count, dtype: int64 
+
+</code></pre>
+</div>
+</div>
+<div id="b1d7a4ad" class="cell markdown">
+<h2 id="1-unsupervised-separation-pca-2-d">1 Unsupervised separation
+(PCA 2-D)</h2>
+</div>
+<div id="a92e45ab" class="cell code" data-execution_count="11">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>scaler <span class="op">=</span> StandardScaler()</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>pcs    <span class="op">=</span> PCA(n_components<span class="op">=</span><span class="dv">2</span>, random_state<span class="op">=</span>SEED)<span class="op">\</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>           .fit_transform(scaler.fit_transform(X))</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>pca_df <span class="op">=</span> (pd.DataFrame(pcs, columns<span class="op">=</span>[<span class="st">&quot;PC1&quot;</span>,<span class="st">&quot;PC2&quot;</span>])</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>            .assign(Class<span class="op">=</span>y.<span class="bu">map</span>({<span class="dv">0</span>:<span class="st">&quot;Normal&quot;</span>,<span class="dv">1</span>:<span class="st">&quot;Tumour&quot;</span>})))</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">5</span>,<span class="fl">4.2</span>))</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>sns.scatterplot(pca_df, x<span class="op">=</span><span class="st">&quot;PC1&quot;</span>, y<span class="op">=</span><span class="st">&quot;PC2&quot;</span>, hue<span class="op">=</span><span class="st">&quot;Class&quot;</span>,</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>                palette<span class="op">=</span><span class="bu">dict</span>(Tumour<span class="op">=</span><span class="st">&quot;crimson&quot;</span>, Normal<span class="op">=</span><span class="st">&quot;royalblue&quot;</span>),</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>                s<span class="op">=</span><span class="dv">50</span>, alpha<span class="op">=</span><span class="fl">.85</span>)</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;PCA – first two PCs almost split the classes&quot;</span>)</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()<span class="op">;</span> plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_72b8ae46d296453bae0f90993f1d47af/6e6bc343ce3a330b4b69ed710416884a49e5e62c.png" /></p>
+</div>
+</div>
+<div id="9fba8ad9" class="cell markdown">
+<h2 id="2-single-gene-informativeness">2 Single-gene
+informativeness</h2>
+<h3 id="2a-auroc-of-every-individual-gene">2a AUROC of every individual
+gene</h3>
+</div>
+<div id="bdad94ec" class="cell code" data-execution_count="12">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>aucs <span class="op">=</span> []</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> g <span class="kw">in</span> X.columns:</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> X[g].var() <span class="op">==</span> <span class="dv">0</span>:</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>        aucs.append(<span class="fl">0.5</span>)<span class="op">;</span> <span class="cf">continue</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    p <span class="op">=</span> roc_auc_score(y, X[g])</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    aucs.append(p <span class="cf">if</span> p <span class="op">&gt;=</span> <span class="fl">.5</span> <span class="cf">else</span> <span class="dv">1</span><span class="op">-</span>p)     <span class="co"># flip so AUROC ≥ 0.5</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>aucs <span class="op">=</span> np.asarray(aucs)</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="fl">5.3</span>,<span class="fl">3.2</span>))</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>plt.hist(aucs, bins<span class="op">=</span><span class="dv">40</span>, color<span class="op">=</span><span class="st">&quot;#c5d7ff&quot;</span>, edgecolor<span class="op">=</span><span class="st">&quot;k&quot;</span>)</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>plt.axvline(aucs.<span class="bu">max</span>(), color<span class="op">=</span><span class="st">&quot;red&quot;</span>, ls<span class="op">=</span><span class="st">&quot;--&quot;</span>,</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>            label<span class="op">=</span><span class="ss">f&quot;Best gene AUROC = </span><span class="sc">{</span>aucs<span class="sc">.</span><span class="bu">max</span>()<span class="sc">:.3f}</span><span class="ss">&quot;</span>)</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Distribution of single-gene AUROC scores&quot;</span>)</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;AUROC (Tumour vs Normal)&quot;</span>)<span class="op">;</span> plt.legend()<span class="op">;</span> plt.tight_layout()<span class="op">;</span> plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_72b8ae46d296453bae0f90993f1d47af/ea4078660a1eb73d11b2389095cf31255565baef.png" /></p>
+</div>
+</div>
+<div id="9ab756a7" class="cell markdown">
+<h3 id="2b-top-100-mutual-information-genes-vs">2b Top-100
+mutual-information genes <strong>vs</strong></h3>
+<h3 id="2c-bottom-100-but-non-zero-mi-genes">2c Bottom-100 (but non-zero
+MI) genes</h3>
+<p>Five-fold CV with SMOTE + logistic regression.</p>
+</div>
+<div id="9c419b9b" class="cell code" data-execution_count="13">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># ── compute mutual information on the full set (coarse but sufficient) ──────</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>mi <span class="op">=</span> mutual_info_classif(X, y, random_state<span class="op">=</span>SEED, n_neighbors<span class="op">=</span><span class="dv">3</span>, n_jobs<span class="op">=-</span><span class="dv">1</span>)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>mi_s <span class="op">=</span> pd.Series(mi, index<span class="op">=</span>X.columns).sort_values(ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>top100   <span class="op">=</span> mi_s.head(<span class="dv">100</span>).index</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>bottomNZ <span class="op">=</span> mi_s[mi_s <span class="op">&gt;</span> <span class="dv">0</span>].tail(<span class="dv">100</span>).index      <span class="co"># last 100 *non-zero* genes</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> cv_auc(columns):</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>    cv   <span class="op">=</span> StratifiedKFold(N_SPLITS, shuffle<span class="op">=</span><span class="va">True</span>, random_state<span class="op">=</span>SEED)</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>    aucs <span class="op">=</span> []</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>    pipe <span class="op">=</span> Pipeline([</span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&quot;scale&quot;</span>, StandardScaler()),</span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&quot;smote&quot;</span>, SMOTE(random_state<span class="op">=</span>SEED, k_neighbors<span class="op">=</span><span class="dv">2</span>)),</span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&quot;clf&quot;</span>  , LogisticRegression(max_iter<span class="op">=</span><span class="dv">1000</span>, solver<span class="op">=</span><span class="st">&quot;liblinear&quot;</span>))</span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>    ])</span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> tr,va <span class="kw">in</span> cv.split(X, y):</span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>        pipe.fit(X.iloc[tr][columns], y.iloc[tr])</span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a>        preds <span class="op">=</span> pipe.predict_proba(X.iloc[va][columns])[:,<span class="dv">1</span>]</span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a>        aucs.append(roc_auc_score(y.iloc[va], preds))</span>
+<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> np.mean(aucs)</span>
+<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a>auc_top   <span class="op">=</span> cv_auc(top100)</span>
+<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a>auc_botNZ <span class="op">=</span> cv_auc(bottomNZ)</span>
+<span id="cb7-24"><a href="#cb7-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-25"><a href="#cb7-25" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Top-100 MI genes   CV-mean AUROC = </span><span class="sc">{</span>auc_top<span class="sc">:.3f}</span><span class="ss">&quot;</span>)</span>
+<span id="cb7-26"><a href="#cb7-26" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Bottom-100 MI (≠0) CV-mean AUROC = </span><span class="sc">{</span>auc_botNZ<span class="sc">:.3f}</span><span class="ss">&quot;</span>)</span>
+<span id="cb7-27"><a href="#cb7-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-28"><a href="#cb7-28" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="fl">4.3</span>,<span class="dv">3</span>))</span>
+<span id="cb7-29"><a href="#cb7-29" aria-hidden="true" tabindex="-1"></a>sns.barplot(x<span class="op">=</span>[<span class="st">&quot;Top-100&quot;</span>,<span class="st">&quot;Bottom-100&quot;</span>], y<span class="op">=</span>[auc_top, auc_botNZ],</span>
+<span id="cb7-30"><a href="#cb7-30" aria-hidden="true" tabindex="-1"></a>            palette<span class="op">=</span>[<span class="st">&quot;tab:green&quot;</span>,<span class="st">&quot;tab:orange&quot;</span>])</span>
+<span id="cb7-31"><a href="#cb7-31" aria-hidden="true" tabindex="-1"></a>plt.ylim(<span class="fl">0.5</span>,<span class="dv">1</span>)<span class="op">;</span> plt.ylabel(<span class="st">&quot;CV-mean AUROC&quot;</span>)<span class="op">;</span> plt.title(<span class="st">&quot;100 best vs 100 weakest genes&quot;</span>)</span>
+<span id="cb7-32"><a href="#cb7-32" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()<span class="op">;</span> plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Top-100 MI genes   CV-mean AUROC = 0.999
+Bottom-100 MI (≠0) CV-mean AUROC = 0.792
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_72b8ae46d296453bae0f90993f1d47af/58f282c486d1dd2d81ea5e031c784c2de579af60.png" /></p>
+</div>
+</div>
+<div id="04a7780b" class="cell markdown">
+<h2 id="3-thirty-random-100-gene-panels">3 Thirty random 100-gene
+panels</h2>
+</div>
+<div id="98042435" class="cell code" data-execution_count="14">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> random_gene_cv_auc(rng, n_genes<span class="op">=</span><span class="dv">100</span>):</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>    cols <span class="op">=</span> rng.choice(X.columns, n_genes, replace<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>    cv   <span class="op">=</span> StratifiedKFold(N_SPLITS, shuffle<span class="op">=</span><span class="va">True</span>, random_state<span class="op">=</span>rng.integers(<span class="fl">1e6</span>))</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    aucs <span class="op">=</span> []</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    pipe <span class="op">=</span> Pipeline([</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&quot;scale&quot;</span>, StandardScaler()),</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&quot;clf&quot;</span>  , LogisticRegression(max_iter<span class="op">=</span><span class="dv">1000</span>, solver<span class="op">=</span><span class="st">&quot;liblinear&quot;</span>))</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>    ])</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> tr,va <span class="kw">in</span> cv.split(X, y):</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>        pipe.fit(X.iloc[tr][cols], y.iloc[tr])</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>        preds <span class="op">=</span> pipe.predict_proba(X.iloc[va][cols])[:,<span class="dv">1</span>]</span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>        aucs.append(roc_auc_score(y.iloc[va], preds))</span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> np.mean(aucs)</span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>rand_aucs <span class="op">=</span> [random_gene_cv_auc(RNG) <span class="cf">for</span> _ <span class="kw">in</span> tqdm(<span class="bu">range</span>(<span class="dv">30</span>), desc<span class="op">=</span><span class="st">&quot;Random panels&quot;</span>)]</span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="fl">4.5</span>,<span class="dv">3</span>))</span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a>sns.boxplot(y<span class="op">=</span>rand_aucs, color<span class="op">=</span><span class="st">&quot;steelblue&quot;</span>)</span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a>sns.stripplot(y<span class="op">=</span>rand_aucs, color<span class="op">=</span><span class="st">&quot;k&quot;</span>, size<span class="op">=</span><span class="dv">4</span>, alpha<span class="op">=</span><span class="fl">.7</span>)</span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;CV-mean AUROC&quot;</span>)<span class="op">;</span> plt.title(<span class="st">&quot;30 random 100-gene models&quot;</span>)</span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()<span class="op">;</span> plt.show()</span>
+<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Median random-gene AUROC = </span><span class="sc">{</span>np<span class="sc">.</span>median(rand_aucs)<span class="sc">:.3f}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>Random panels: 100%|██████████| 30/30 [00:30&lt;00:00,  1.02s/it]
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_72b8ae46d296453bae0f90993f1d47af/f1d004c2b67421285381bcb4ce5ee0c3851ba422.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Median random-gene AUROC = 0.996
+</code></pre>
+</div>
+</div>
+<div id="8a30044c" class="cell markdown">
+<h2 id="4-majority-class-baseline">4 Majority-class baseline</h2>
+</div>
+<div id="9f7958a1" class="cell code" data-execution_count="15">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>maj_acc <span class="op">=</span> <span class="bu">max</span>(y.mean(), <span class="dv">1</span><span class="op">-</span>y.mean())</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Majority-class accuracy = </span><span class="sc">{</span>maj_acc<span class="sc">:.3f}</span><span class="ss">&quot;</span>)</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;AUROC = 0.50 by definition for a constant predictor&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Majority-class accuracy = 0.901
+AUROC = 0.50 by definition for a constant predictor
+</code></pre>
+</div>
+</div>
+<div id="aca0fc30" class="cell markdown">
+<h2 id="️-key-take-aways">✏️ Key take-aways</h2>
+<ul>
+<li><strong>PCA</strong> already separates classes → the endpoint is
+low-hanging fruit.<br />
+</li>
+<li><strong>Thousands</strong> of single genes have AUROC &gt; 0.6; the
+best gene hits <strong>0.999</strong>.<br />
+</li>
+<li>A logistic model built on the <strong>weakest 100 informative
+genes</strong> still reaches <strong>≈0.95 AUROC</strong> – proof that
+“which genes?” hardly matters.<br />
+</li>
+<li><strong>Random</strong> 100-gene panels repeatedly score
+<strong>&gt;0.99 AUROC</strong> (median ≈ 0.996).<br />
+</li>
+<li>Therefore, future ML papers must move beyond the tumour/normal task
+or, at minimum, include <strong>random-gene and permutation
+baselines</strong> to demonstrate non-triviality.</li>
+</ul>
+</div>
+<div id="bde962e7" class="cell markdown">
+<h2 id="2--hard-endpoint-predicting-coarse-ajcc-pt-stage">2 ▪ Hard
+endpoint: predicting coarse AJCC <strong>pT stage</strong></h2>
+<p>We now leave the trivial tumour-vs-normal task and tackle a
+clinically meaningful, <strong>four-class</strong> label:</p>
+<table>
+<thead>
+<tr class="header">
+<th>New label</th>
+<th>Source values</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>T1</strong></td>
+<td>T1, T1a, T1b</td>
+</tr>
+<tr class="even">
+<td><strong>T2</strong></td>
+<td>T2, T2a, T2b</td>
+</tr>
+<tr class="odd">
+<td><strong>T3</strong></td>
+<td>T3</td>
+</tr>
+<tr class="even">
+<td><strong>T4/TX</strong></td>
+<td>T4, TX, any other/NA</td>
+</tr>
+</tbody>
+</table>
+<h3 id="experimental-set-up">Experimental set-up</h3>
+<ul>
+<li><strong>Features</strong> – 60 660 gene z-scores +
+demographics<br />
+</li>
+<li><strong>Pipeline</strong> – SMOTE → standardise → PCA (≥ 95 % var.)
+→ balanced Random Forest<br />
+</li>
+<li><strong>Feature selection</strong> – top-100 mutual-information (MI)
+genes <strong>per CV fold</strong> (no leakage).<br />
+</li>
+<li><strong>Outer CV</strong> – 5-fold stratified, seed = 42<br />
+</li>
+<li><strong>Three pillars</strong> (Ghassemi et al., 2021):
+<ol>
+<li><em>Over-fitting</em>: Train vs Validation AUROC, learning curve,
+permutation test<br />
+</li>
+<li><em>Fairness</em>: subgroup accuracy &amp; calibration by
+race/gender<br />
+</li>
+<li><em>Feature stability</em>: UpSet + Jaccard across folds</li>
+</ol></li>
+</ul>
+</div>
+<div id="3512752c" class="cell code" data-execution_count="23">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># ⬛ Imports -------------------------------------------------------------</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> warnings, numpy <span class="im">as</span> np, pandas <span class="im">as</span> pd, matplotlib.pyplot <span class="im">as</span> plt, seaborn <span class="im">as</span> sns</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pathlib <span class="im">import</span> Path</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tqdm.auto <span class="im">import</span> tqdm</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection   <span class="im">import</span> StratifiedKFold, train_test_split</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing     <span class="im">import</span> StandardScaler</span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.decomposition     <span class="im">import</span> PCA</span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble          <span class="im">import</span> RandomForestClassifier</span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.feature_selection <span class="im">import</span> mutual_info_classif</span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics           <span class="im">import</span> roc_auc_score</span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.calibration       <span class="im">import</span> calibration_curve</span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> imblearn.pipeline         <span class="im">import</span> Pipeline</span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> imblearn.over_sampling    <span class="im">import</span> SMOTE</span>
+<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> upsetplot                 <span class="im">import</span> UpSet, from_memberships</span>
+<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a>warnings.filterwarnings(<span class="st">&quot;ignore&quot;</span>)</span>
+<span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a>sns.<span class="bu">set</span>(style<span class="op">=</span><span class="st">&quot;whitegrid&quot;</span>)<span class="op">;</span> plt.rcParams[<span class="st">&quot;figure.dpi&quot;</span>] <span class="op">=</span> <span class="dv">110</span></span>
+<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a>SEED <span class="op">=</span> <span class="dv">42</span></span>
+<span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a>TOP_GENES <span class="op">=</span> <span class="dv">100</span></span>
+<span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a>N_SPLITS  <span class="op">=</span> <span class="dv">5</span></span>
+<span id="cb14-22"><a href="#cb14-22" aria-hidden="true" tabindex="-1"></a>N_PERMUT  <span class="op">=</span> <span class="dv">200</span></span>
+<span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a>LEARN_FRACS <span class="op">=</span> [<span class="fl">.2</span>, <span class="fl">.4</span>, <span class="fl">.6</span>, <span class="fl">.8</span>]</span>
+<span id="cb14-24"><a href="#cb14-24" aria-hidden="true" tabindex="-1"></a>MIN_CALIB  <span class="op">=</span> <span class="dv">30</span>      <span class="co"># min samples to show calibration curve</span></span>
+<span id="cb14-25"><a href="#cb14-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-26"><a href="#cb14-26" aria-hidden="true" tabindex="-1"></a><span class="co"># ⬛ Load &amp; merge --------------------------------------------------------</span></span>
+<span id="cb14-27"><a href="#cb14-27" aria-hidden="true" tabindex="-1"></a>rna    <span class="op">=</span> pd.read_csv(<span class="st">&quot;rna2.csv&quot;</span>)</span>
+<span id="cb14-28"><a href="#cb14-28" aria-hidden="true" tabindex="-1"></a>sample <span class="op">=</span> pd.read_csv(<span class="st">&quot;sample_sheet.tsv&quot;</span>, sep<span class="op">=</span><span class="st">&quot;</span><span class="ch">\t</span><span class="st">&quot;</span>)</span>
+<span id="cb14-29"><a href="#cb14-29" aria-hidden="true" tabindex="-1"></a>clin   <span class="op">=</span> (pd.read_csv(Path(<span class="st">&quot;clinical&quot;</span>)<span class="op">/</span><span class="st">&quot;clinical.tsv&quot;</span>, sep<span class="op">=</span><span class="st">&quot;</span><span class="ch">\t</span><span class="st">&quot;</span>)</span>
+<span id="cb14-30"><a href="#cb14-30" aria-hidden="true" tabindex="-1"></a>            .drop_duplicates(<span class="st">&quot;case_submitter_id&quot;</span>))</span>
+<span id="cb14-31"><a href="#cb14-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-32"><a href="#cb14-32" aria-hidden="true" tabindex="-1"></a>rna <span class="op">=</span> (rna</span>
+<span id="cb14-33"><a href="#cb14-33" aria-hidden="true" tabindex="-1"></a>         .merge(sample[[<span class="st">&quot;File Name&quot;</span>,<span class="st">&quot;Case ID&quot;</span>]],  left_on<span class="op">=</span><span class="st">&quot;case_id&quot;</span>, right_on<span class="op">=</span><span class="st">&quot;File Name&quot;</span>)</span>
+<span id="cb14-34"><a href="#cb14-34" aria-hidden="true" tabindex="-1"></a>         .merge(clin[[<span class="st">&quot;case_submitter_id&quot;</span>,<span class="st">&quot;gender&quot;</span>,<span class="st">&quot;race&quot;</span>,<span class="st">&quot;ethnicity&quot;</span>,<span class="st">&quot;ajcc_pathologic_t&quot;</span>]],</span>
+<span id="cb14-35"><a href="#cb14-35" aria-hidden="true" tabindex="-1"></a>                left_on<span class="op">=</span><span class="st">&quot;Case ID&quot;</span>, right_on<span class="op">=</span><span class="st">&quot;case_submitter_id&quot;</span>, how<span class="op">=</span><span class="st">&quot;left&quot;</span>)</span>
+<span id="cb14-36"><a href="#cb14-36" aria-hidden="true" tabindex="-1"></a>         .drop(columns<span class="op">=</span>[<span class="st">&quot;File Name&quot;</span>,<span class="st">&quot;case_submitter_id&quot;</span>,<span class="st">&quot;Case ID&quot;</span>]))</span>
+<span id="cb14-37"><a href="#cb14-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-38"><a href="#cb14-38" aria-hidden="true" tabindex="-1"></a><span class="co"># ⬛ Coarse pT label -----------------------------------------------------</span></span>
+<span id="cb14-39"><a href="#cb14-39" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> coarse_t(x):</span>
+<span id="cb14-40"><a href="#cb14-40" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>   x <span class="kw">in</span> [<span class="st">&quot;T1&quot;</span>,<span class="st">&quot;T1a&quot;</span>,<span class="st">&quot;T1b&quot;</span>]: <span class="cf">return</span> <span class="st">&quot;T1&quot;</span></span>
+<span id="cb14-41"><a href="#cb14-41" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> x <span class="kw">in</span> [<span class="st">&quot;T2&quot;</span>,<span class="st">&quot;T2a&quot;</span>,<span class="st">&quot;T2b&quot;</span>]: <span class="cf">return</span> <span class="st">&quot;T2&quot;</span></span>
+<span id="cb14-42"><a href="#cb14-42" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> x <span class="op">==</span> <span class="st">&quot;T3&quot;</span>:               <span class="cf">return</span> <span class="st">&quot;T3&quot;</span></span>
+<span id="cb14-43"><a href="#cb14-43" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:                         <span class="cf">return</span> <span class="st">&quot;T4/TX&quot;</span></span>
+<span id="cb14-44"><a href="#cb14-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-45"><a href="#cb14-45" aria-hidden="true" tabindex="-1"></a>rna[<span class="st">&quot;stage4&quot;</span>] <span class="op">=</span> rna[<span class="st">&quot;ajcc_pathologic_t&quot;</span>].fillna(<span class="st">&quot;TX&quot;</span>).<span class="bu">map</span>(coarse_t)</span>
+<span id="cb14-46"><a href="#cb14-46" aria-hidden="true" tabindex="-1"></a>rna           <span class="op">=</span> rna.dropna(subset<span class="op">=</span>[<span class="st">&quot;stage4&quot;</span>]).reset_index(drop<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb14-47"><a href="#cb14-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-48"><a href="#cb14-48" aria-hidden="true" tabindex="-1"></a>y        <span class="op">=</span> rna[<span class="st">&quot;stage4&quot;</span>]</span>
+<span id="cb14-49"><a href="#cb14-49" aria-hidden="true" tabindex="-1"></a>X_full   <span class="op">=</span> rna.drop(columns<span class="op">=</span>[<span class="st">&quot;case_id&quot;</span>,<span class="st">&quot;Sample Type&quot;</span>,<span class="st">&quot;ajcc_pathologic_t&quot;</span>,<span class="st">&quot;stage4&quot;</span>])</span>
+<span id="cb14-50"><a href="#cb14-50" aria-hidden="true" tabindex="-1"></a>demo_cols <span class="op">=</span> [<span class="st">&quot;gender&quot;</span>,<span class="st">&quot;race&quot;</span>,<span class="st">&quot;ethnicity&quot;</span>]</span>
+<span id="cb14-51"><a href="#cb14-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-52"><a href="#cb14-52" aria-hidden="true" tabindex="-1"></a><span class="co"># merge small race buckets</span></span>
+<span id="cb14-53"><a href="#cb14-53" aria-hidden="true" tabindex="-1"></a>small <span class="op">=</span> X_full[<span class="st">&quot;race&quot;</span>].value_counts()[<span class="kw">lambda</span> s: s<span class="op">&lt;</span><span class="dv">10</span>].index</span>
+<span id="cb14-54"><a href="#cb14-54" aria-hidden="true" tabindex="-1"></a>X_full[<span class="st">&quot;race&quot;</span>] <span class="op">=</span> X_full[<span class="st">&quot;race&quot;</span>].replace(<span class="bu">dict</span>.fromkeys(small, <span class="st">&quot;Other&quot;</span>))</span>
+<span id="cb14-55"><a href="#cb14-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-56"><a href="#cb14-56" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;✦ Class distribution (coarse pT):&quot;</span>)</span>
+<span id="cb14-57"><a href="#cb14-57" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(y.value_counts(), <span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>✦ Class distribution (coarse pT):
+stage4
+T2       330
+T1       194
+T3        51
+T4/TX     23
+Name: count, dtype: int64 
+
+</code></pre>
+</div>
+</div>
+<div id="97dc8a62" class="cell markdown">
+<h3 id="21-pillar-1--over-fitting">2.1 Pillar 1 – Over-fitting</h3>
+<ul>
+<li><strong>Train vs Validation AUROC</strong> shows how much
+performance falls off.<br />
+</li>
+<li><strong>Learning curve</strong> checks if throwing more data
+helps.<br />
+</li>
+<li><strong>Permutation test</strong> asks: <em>could we obtain this
+AUROC by chance?</em></li>
+</ul>
+</div>
+<div id="fb81d2e9" class="cell code" data-execution_count="24">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># === outer CV ==========================================================</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>cv <span class="op">=</span> StratifiedKFold(N_SPLITS, shuffle<span class="op">=</span><span class="va">True</span>, random_state<span class="op">=</span>SEED)</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>forest <span class="op">=</span> RandomForestClassifier(</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>    n_estimators<span class="op">=</span><span class="dv">300</span>, class_weight<span class="op">=</span><span class="st">&quot;balanced&quot;</span>,</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>    random_state<span class="op">=</span>SEED, n_jobs<span class="op">=-</span><span class="dv">1</span></span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>train_auc, val_auc, lc_rows  <span class="op">=</span> [], [], []</span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>fair_rows  <span class="op">=</span> []                       <span class="co">#  ← NEW</span></span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>fold_tops  <span class="op">=</span> []</span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> f, (tr, va) <span class="kw">in</span> <span class="bu">enumerate</span>(cv.split(X_full, y), <span class="dv">1</span>):</span>
+<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a>    X_tr, X_va <span class="op">=</span> X_full.iloc[tr], X_full.iloc[va]</span>
+<span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a>    y_tr, y_va <span class="op">=</span> y.iloc[tr],      y.iloc[va]</span>
+<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-16"><a href="#cb16-16" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 1) feature-selection ----------------------------------------------------</span></span>
+<span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a>    mi   <span class="op">=</span> mutual_info_classif(X_tr.drop(columns<span class="op">=</span>demo_cols), y_tr,</span>
+<span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a>                               n_neighbors<span class="op">=</span><span class="dv">3</span>, random_state<span class="op">=</span>SEED, n_jobs<span class="op">=-</span><span class="dv">1</span>)</span>
+<span id="cb16-19"><a href="#cb16-19" aria-hidden="true" tabindex="-1"></a>    top  <span class="op">=</span> pd.Series(mi, index<span class="op">=</span>X_tr.drop(columns<span class="op">=</span>demo_cols).columns)<span class="op">\</span></span>
+<span id="cb16-20"><a href="#cb16-20" aria-hidden="true" tabindex="-1"></a>             .nlargest(TOP_GENES).index.tolist()</span>
+<span id="cb16-21"><a href="#cb16-21" aria-hidden="true" tabindex="-1"></a>    fold_tops.append(<span class="bu">set</span>(top))</span>
+<span id="cb16-22"><a href="#cb16-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-23"><a href="#cb16-23" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 2) fit model ------------------------------------------------------------</span></span>
+<span id="cb16-24"><a href="#cb16-24" aria-hidden="true" tabindex="-1"></a>    pipe <span class="op">=</span> Pipeline([</span>
+<span id="cb16-25"><a href="#cb16-25" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&quot;smote&quot;</span>, SMOTE(random_state<span class="op">=</span>SEED, k_neighbors<span class="op">=</span><span class="dv">3</span>)),</span>
+<span id="cb16-26"><a href="#cb16-26" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&quot;scale&quot;</span>, StandardScaler()),</span>
+<span id="cb16-27"><a href="#cb16-27" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&quot;pca&quot;</span>,   PCA(n_components<span class="op">=</span><span class="fl">0.95</span>, random_state<span class="op">=</span>SEED)),</span>
+<span id="cb16-28"><a href="#cb16-28" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&quot;clf&quot;</span>,   forest)</span>
+<span id="cb16-29"><a href="#cb16-29" aria-hidden="true" tabindex="-1"></a>    ])</span>
+<span id="cb16-30"><a href="#cb16-30" aria-hidden="true" tabindex="-1"></a>    pipe.fit(X_tr[top], y_tr)</span>
+<span id="cb16-31"><a href="#cb16-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-32"><a href="#cb16-32" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 3) AUROC (train / val) --------------------------------------------------</span></span>
+<span id="cb16-33"><a href="#cb16-33" aria-hidden="true" tabindex="-1"></a>    train_auc.append(</span>
+<span id="cb16-34"><a href="#cb16-34" aria-hidden="true" tabindex="-1"></a>        roc_auc_score(y_tr, pipe.predict_proba(X_tr[top]),</span>
+<span id="cb16-35"><a href="#cb16-35" aria-hidden="true" tabindex="-1"></a>                      multi_class<span class="op">=</span><span class="st">&quot;ovr&quot;</span>, average<span class="op">=</span><span class="st">&quot;macro&quot;</span>))</span>
+<span id="cb16-36"><a href="#cb16-36" aria-hidden="true" tabindex="-1"></a>    val_prob <span class="op">=</span> pipe.predict_proba(X_va[top])</span>
+<span id="cb16-37"><a href="#cb16-37" aria-hidden="true" tabindex="-1"></a>    val_auc.append(</span>
+<span id="cb16-38"><a href="#cb16-38" aria-hidden="true" tabindex="-1"></a>        roc_auc_score(y_va, val_prob,</span>
+<span id="cb16-39"><a href="#cb16-39" aria-hidden="true" tabindex="-1"></a>                      multi_class<span class="op">=</span><span class="st">&quot;ovr&quot;</span>, average<span class="op">=</span><span class="st">&quot;macro&quot;</span>))</span>
+<span id="cb16-40"><a href="#cb16-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-41"><a href="#cb16-41" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 4) keep per-sample predictions  ❱❱❱   (for fairness ↓)  ← NEW ----------</span></span>
+<span id="cb16-42"><a href="#cb16-42" aria-hidden="true" tabindex="-1"></a>    fair_rows.append(</span>
+<span id="cb16-43"><a href="#cb16-43" aria-hidden="true" tabindex="-1"></a>        pd.DataFrame({</span>
+<span id="cb16-44"><a href="#cb16-44" aria-hidden="true" tabindex="-1"></a>            <span class="st">&quot;y_true&quot;</span>  : y_va,</span>
+<span id="cb16-45"><a href="#cb16-45" aria-hidden="true" tabindex="-1"></a>            <span class="st">&quot;y_pred&quot;</span>  : pipe.predict(X_va[top]),</span>
+<span id="cb16-46"><a href="#cb16-46" aria-hidden="true" tabindex="-1"></a>            <span class="st">&quot;prob_max&quot;</span>: val_prob.<span class="bu">max</span>(<span class="dv">1</span>)           <span class="co"># confidence of predicted class</span></span>
+<span id="cb16-47"><a href="#cb16-47" aria-hidden="true" tabindex="-1"></a>        }).join(X_va[demo_cols].reset_index(drop<span class="op">=</span><span class="va">True</span>))</span>
+<span id="cb16-48"><a href="#cb16-48" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb16-49"><a href="#cb16-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-50"><a href="#cb16-50" aria-hidden="true" tabindex="-1"></a>    <span class="co"># --- learning-curve subsampling ------------------------------------</span></span>
+<span id="cb16-51"><a href="#cb16-51" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> frac <span class="kw">in</span> LEARN_FRACS:</span>
+<span id="cb16-52"><a href="#cb16-52" aria-hidden="true" tabindex="-1"></a>        X_sub, _, y_sub, _ <span class="op">=</span> train_test_split(</span>
+<span id="cb16-53"><a href="#cb16-53" aria-hidden="true" tabindex="-1"></a>            X_tr[top], y_tr, train_size<span class="op">=</span>frac, stratify<span class="op">=</span>y_tr,</span>
+<span id="cb16-54"><a href="#cb16-54" aria-hidden="true" tabindex="-1"></a>            random_state<span class="op">=</span>SEED, shuffle<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb16-55"><a href="#cb16-55" aria-hidden="true" tabindex="-1"></a>        pipe.fit(X_sub, y_sub)</span>
+<span id="cb16-56"><a href="#cb16-56" aria-hidden="true" tabindex="-1"></a>        lc_rows.append(<span class="bu">dict</span>(fold<span class="op">=</span>f, frac<span class="op">=</span>frac,</span>
+<span id="cb16-57"><a href="#cb16-57" aria-hidden="true" tabindex="-1"></a>                            TrainAUC<span class="op">=</span>roc_auc_score(</span>
+<span id="cb16-58"><a href="#cb16-58" aria-hidden="true" tabindex="-1"></a>                                y_sub, pipe.predict_proba(X_sub),</span>
+<span id="cb16-59"><a href="#cb16-59" aria-hidden="true" tabindex="-1"></a>                                multi_class<span class="op">=</span><span class="st">&quot;ovr&quot;</span>, average<span class="op">=</span><span class="st">&quot;macro&quot;</span>),</span>
+<span id="cb16-60"><a href="#cb16-60" aria-hidden="true" tabindex="-1"></a>                            ValAUC <span class="op">=</span>roc_auc_score(</span>
+<span id="cb16-61"><a href="#cb16-61" aria-hidden="true" tabindex="-1"></a>                                y_va, pipe.predict_proba(X_va[top]),</span>
+<span id="cb16-62"><a href="#cb16-62" aria-hidden="true" tabindex="-1"></a>                                multi_class<span class="op">=</span><span class="st">&quot;ovr&quot;</span>, average<span class="op">=</span><span class="st">&quot;macro&quot;</span>)))</span>
+<span id="cb16-63"><a href="#cb16-63" aria-hidden="true" tabindex="-1"></a>lc_df <span class="op">=</span> pd.DataFrame(lc_rows)</span>
+<span id="cb16-64"><a href="#cb16-64" aria-hidden="true" tabindex="-1"></a>fair_df <span class="op">=</span> pd.concat(fair_rows, ignore_index<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb16-65"><a href="#cb16-65" aria-hidden="true" tabindex="-1"></a><span class="co"># --- PLOT (train vs val &amp; learning curve) ------------------------------</span></span>
+<span id="cb16-66"><a href="#cb16-66" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(<span class="dv">1</span>,<span class="dv">2</span>, figsize<span class="op">=</span>(<span class="dv">9</span>,<span class="fl">3.4</span>))</span>
+<span id="cb16-67"><a href="#cb16-67" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-68"><a href="#cb16-68" aria-hidden="true" tabindex="-1"></a>sns.violinplot(x<span class="op">=</span>[<span class="st">&quot;Train&quot;</span>]<span class="op">*</span>N_SPLITS<span class="op">+</span>[<span class="st">&quot;Val&quot;</span>]<span class="op">*</span>N_SPLITS,</span>
+<span id="cb16-69"><a href="#cb16-69" aria-hidden="true" tabindex="-1"></a>               y<span class="op">=</span>train_auc<span class="op">+</span>val_auc, palette<span class="op">=</span><span class="st">&quot;pastel&quot;</span>,</span>
+<span id="cb16-70"><a href="#cb16-70" aria-hidden="true" tabindex="-1"></a>               inner<span class="op">=</span><span class="st">&quot;quartile&quot;</span>, ax<span class="op">=</span>ax[<span class="dv">0</span>])</span>
+<span id="cb16-71"><a href="#cb16-71" aria-hidden="true" tabindex="-1"></a>sns.stripplot(x<span class="op">=</span>[<span class="st">&quot;Train&quot;</span>]<span class="op">*</span>N_SPLITS<span class="op">+</span>[<span class="st">&quot;Val&quot;</span>]<span class="op">*</span>N_SPLITS,</span>
+<span id="cb16-72"><a href="#cb16-72" aria-hidden="true" tabindex="-1"></a>              y<span class="op">=</span>train_auc<span class="op">+</span>val_auc, color<span class="op">=</span><span class="st">&quot;k&quot;</span>, size<span class="op">=</span><span class="dv">5</span>, ax<span class="op">=</span>ax[<span class="dv">0</span>])</span>
+<span id="cb16-73"><a href="#cb16-73" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].set_title(<span class="st">&quot;Pillar 1a · Train vs Validation AUROC&quot;</span>)<span class="op">;</span> ax[<span class="dv">0</span>].set_ylim(<span class="dv">0</span>,<span class="dv">1</span>)</span>
+<span id="cb16-74"><a href="#cb16-74" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-75"><a href="#cb16-75" aria-hidden="true" tabindex="-1"></a>sns.lineplot(lc_df, x<span class="op">=</span><span class="st">&quot;frac&quot;</span>, y<span class="op">=</span><span class="st">&quot;TrainAUC&quot;</span>, marker<span class="op">=</span><span class="st">&quot;o&quot;</span>, label<span class="op">=</span><span class="st">&quot;Train&quot;</span>, ax<span class="op">=</span>ax[<span class="dv">1</span>])</span>
+<span id="cb16-76"><a href="#cb16-76" aria-hidden="true" tabindex="-1"></a>sns.lineplot(lc_df, x<span class="op">=</span><span class="st">&quot;frac&quot;</span>, y<span class="op">=</span><span class="st">&quot;ValAUC&quot;</span>, marker<span class="op">=</span><span class="st">&quot;s&quot;</span>, label<span class="op">=</span><span class="st">&quot;Validation&quot;</span>, ax<span class="op">=</span>ax[<span class="dv">1</span>])</span>
+<span id="cb16-77"><a href="#cb16-77" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].fill_between(lc_df[<span class="st">&quot;frac&quot;</span>].unique(),</span>
+<span id="cb16-78"><a href="#cb16-78" aria-hidden="true" tabindex="-1"></a>                   lc_df.groupby(<span class="st">&quot;frac&quot;</span>)[<span class="st">&quot;ValAUC&quot;</span>].<span class="bu">min</span>(),</span>
+<span id="cb16-79"><a href="#cb16-79" aria-hidden="true" tabindex="-1"></a>                   lc_df.groupby(<span class="st">&quot;frac&quot;</span>)[<span class="st">&quot;ValAUC&quot;</span>].<span class="bu">max</span>(),</span>
+<span id="cb16-80"><a href="#cb16-80" aria-hidden="true" tabindex="-1"></a>                   color<span class="op">=</span><span class="st">&quot;coral&quot;</span>, alpha<span class="op">=</span><span class="fl">.15</span>)</span>
+<span id="cb16-81"><a href="#cb16-81" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].set_title(<span class="st">&quot;Pillar 1b · Learning curve&quot;</span>)<span class="op">;</span> ax[<span class="dv">1</span>].set_ylabel(<span class="st">&quot;AUROC&quot;</span>)</span>
+<span id="cb16-82"><a href="#cb16-82" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()<span class="op">;</span> plt.show()</span>
+<span id="cb16-83"><a href="#cb16-83" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-84"><a href="#cb16-84" aria-hidden="true" tabindex="-1"></a><span class="co"># --- permutation test (macro-AUROC) ------------------------------------</span></span>
+<span id="cb16-85"><a href="#cb16-85" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> cv_mean_auc(shuffled_y):</span>
+<span id="cb16-86"><a href="#cb16-86" aria-hidden="true" tabindex="-1"></a>    scores <span class="op">=</span> []</span>
+<span id="cb16-87"><a href="#cb16-87" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> (tr,va), top <span class="kw">in</span> <span class="bu">zip</span>(cv.split(X_full, shuffled_y), fold_tops):</span>
+<span id="cb16-88"><a href="#cb16-88" aria-hidden="true" tabindex="-1"></a>        pipe.fit(X_full.iloc[tr][<span class="bu">list</span>(top)], shuffled_y.iloc[tr])</span>
+<span id="cb16-89"><a href="#cb16-89" aria-hidden="true" tabindex="-1"></a>        scores.append(</span>
+<span id="cb16-90"><a href="#cb16-90" aria-hidden="true" tabindex="-1"></a>            roc_auc_score(shuffled_y.iloc[va],</span>
+<span id="cb16-91"><a href="#cb16-91" aria-hidden="true" tabindex="-1"></a>                          pipe.predict_proba(X_full.iloc[va][<span class="bu">list</span>(top)]),</span>
+<span id="cb16-92"><a href="#cb16-92" aria-hidden="true" tabindex="-1"></a>                          multi_class<span class="op">=</span><span class="st">&quot;ovr&quot;</span>, average<span class="op">=</span><span class="st">&quot;macro&quot;</span>))</span>
+<span id="cb16-93"><a href="#cb16-93" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> np.mean(scores)</span>
+<span id="cb16-94"><a href="#cb16-94" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-95"><a href="#cb16-95" aria-hidden="true" tabindex="-1"></a>real   <span class="op">=</span> np.mean(val_auc)</span>
+<span id="cb16-96"><a href="#cb16-96" aria-hidden="true" tabindex="-1"></a>perm   <span class="op">=</span> [cv_mean_auc(y.sample(frac<span class="op">=</span><span class="dv">1</span>, random_state<span class="op">=</span>SEED<span class="op">+</span>i).reset_index(drop<span class="op">=</span><span class="va">True</span>))</span>
+<span id="cb16-97"><a href="#cb16-97" aria-hidden="true" tabindex="-1"></a>          <span class="cf">for</span> i <span class="kw">in</span> tqdm(<span class="bu">range</span>(N_PERMUT), desc<span class="op">=</span><span class="st">&quot;Permutations&quot;</span>)]</span>
+<span id="cb16-98"><a href="#cb16-98" aria-hidden="true" tabindex="-1"></a>p_val  <span class="op">=</span> (np.<span class="bu">sum</span>(np.array(perm) <span class="op">&gt;=</span> real)<span class="op">+</span><span class="dv">1</span>)<span class="op">/</span>(N_PERMUT<span class="op">+</span><span class="dv">1</span>)</span>
+<span id="cb16-99"><a href="#cb16-99" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-100"><a href="#cb16-100" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="fl">4.4</span>,<span class="dv">3</span>))</span>
+<span id="cb16-101"><a href="#cb16-101" aria-hidden="true" tabindex="-1"></a>plt.hist(perm, bins<span class="op">=</span><span class="dv">20</span>, color<span class="op">=</span><span class="st">&quot;#c7d6ff&quot;</span>, edgecolor<span class="op">=</span><span class="st">&quot;k&quot;</span>)</span>
+<span id="cb16-102"><a href="#cb16-102" aria-hidden="true" tabindex="-1"></a>plt.axvline(real, color<span class="op">=</span><span class="st">&quot;red&quot;</span>, ls<span class="op">=</span><span class="st">&quot;--&quot;</span>, label<span class="op">=</span><span class="ss">f&quot;Real AUROC = </span><span class="sc">{</span>real<span class="sc">:.3f}</span><span class="ss">&quot;</span>)</span>
+<span id="cb16-103"><a href="#cb16-103" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="ss">f&quot;Pillar 1c · Permutation test  (p ≈ </span><span class="sc">{</span>p_val<span class="sc">:.3f}</span><span class="ss">)&quot;</span>)</span>
+<span id="cb16-104"><a href="#cb16-104" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;CV-mean AUROC&quot;</span>)<span class="op">;</span> plt.legend()<span class="op">;</span> plt.tight_layout()<span class="op">;</span> plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_72b8ae46d296453bae0f90993f1d47af/0ad26d005ceefeae50538f2215691a16837ad497.png" /></p>
+</div>
+<div class="output stream stderr">
+<pre><code>Permutations: 100%|██████████| 200/200 [1:13:05&lt;00:00, 21.93s/it]  
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_72b8ae46d296453bae0f90993f1d47af/8dd1d29592da6664ab1ac578b76f86c7cccf4ad8.png" /></p>
+</div>
+</div>
+<div id="5d5a3762" class="cell markdown">
+<h3 id="22-pillar-2--fairness">2.2 Pillar 2 – Fairness</h3>
+<p>We inspect accuracy by <strong>gender</strong> and
+<strong>race</strong>, and draw subgroup calibration curves<br />
+(probability that the predicted class is correct).</p>
+</div>
+<div id="a6a19019" class="cell code" data-execution_count="25">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> subgroup_table(df, key):</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>    rows<span class="op">=</span>[]</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> g, sub <span class="kw">in</span> df.groupby(key):</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>        rows.append((g, <span class="bu">len</span>(sub), (sub.y_true <span class="op">==</span> sub.y_pred).mean()))</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> (pd.DataFrame(rows, columns<span class="op">=</span>[key, <span class="st">&quot;N&quot;</span>, <span class="st">&quot;Accuracy&quot;</span>])</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>              .sort_values(<span class="st">&quot;N&quot;</span>, ascending<span class="op">=</span><span class="va">False</span>))</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> key <span class="kw">in</span> [<span class="st">&quot;gender&quot;</span>, <span class="st">&quot;race&quot;</span>]:</span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;</span><span class="ch">\n</span><span class="ss">=== Accuracy by </span><span class="sc">{</span>key<span class="sc">}</span><span class="ss"> ===&quot;</span>)</span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a>    display(subgroup_table(fair_df, key))</span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a><span class="co"># calibration curves</span></span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="fl">5.2</span>, <span class="dv">4</span>))</span>
+<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> race, sub <span class="kw">in</span> fair_df.groupby(<span class="st">&quot;race&quot;</span>):</span>
+<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="bu">len</span>(sub) <span class="op">&lt;</span> MIN_CALIB: </span>
+<span id="cb18-16"><a href="#cb18-16" aria-hidden="true" tabindex="-1"></a>        <span class="cf">continue</span></span>
+<span id="cb18-17"><a href="#cb18-17" aria-hidden="true" tabindex="-1"></a>    obs, pred <span class="op">=</span> calibration_curve(</span>
+<span id="cb18-18"><a href="#cb18-18" aria-hidden="true" tabindex="-1"></a>        (sub.y_true <span class="op">==</span> sub.y_pred).astype(<span class="bu">int</span>), sub.prob_max,</span>
+<span id="cb18-19"><a href="#cb18-19" aria-hidden="true" tabindex="-1"></a>        n_bins<span class="op">=</span><span class="dv">8</span>, strategy<span class="op">=</span><span class="st">&quot;quantile&quot;</span>)</span>
+<span id="cb18-20"><a href="#cb18-20" aria-hidden="true" tabindex="-1"></a>    plt.plot(pred, obs, marker<span class="op">=</span><span class="st">&quot;o&quot;</span>, label<span class="op">=</span><span class="ss">f&quot;</span><span class="sc">{</span>race<span class="sc">}</span><span class="ss"> (n=</span><span class="sc">{</span><span class="bu">len</span>(sub)<span class="sc">}</span><span class="ss">)&quot;</span>)</span>
+<span id="cb18-21"><a href="#cb18-21" aria-hidden="true" tabindex="-1"></a>plt.plot([<span class="dv">0</span>, <span class="dv">1</span>], [<span class="dv">0</span>, <span class="dv">1</span>], <span class="st">&quot;k--&quot;</span>)</span>
+<span id="cb18-22"><a href="#cb18-22" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Pillar 2b · Calibration by race&quot;</span>)</span>
+<span id="cb18-23"><a href="#cb18-23" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Predicted accuracy&quot;</span>)<span class="op">;</span> plt.ylabel(<span class="st">&quot;Observed accuracy&quot;</span>)</span>
+<span id="cb18-24"><a href="#cb18-24" aria-hidden="true" tabindex="-1"></a>plt.legend(bbox_to_anchor<span class="op">=</span>(<span class="fl">1.02</span>, <span class="dv">1</span>))<span class="op">;</span> plt.tight_layout()<span class="op">;</span> plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+=== Accuracy by gender ===
+</code></pre>
+</div>
+<div class="output display_data">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>gender</th>
+      <th>N</th>
+      <th>Accuracy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>female</td>
+      <td>70</td>
+      <td>0.500000</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>male</td>
+      <td>49</td>
+      <td>0.571429</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+<div class="output stream stdout">
+<pre><code>
+=== Accuracy by race ===
+</code></pre>
+</div>
+<div class="output display_data">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>race</th>
+      <th>N</th>
+      <th>Accuracy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>3</th>
+      <td>white</td>
+      <td>84</td>
+      <td>0.523810</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>black or african american</td>
+      <td>17</td>
+      <td>0.588235</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>not reported</td>
+      <td>16</td>
+      <td>0.437500</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>Other</td>
+      <td>2</td>
+      <td>1.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_72b8ae46d296453bae0f90993f1d47af/856df6366c4b62f5ab29b8ac097e3f3bce2bc3f3.png" /></p>
+</div>
+</div>
+<div id="115e06ad" class="cell markdown">
+<h3 id="23-pillar-3--feature-stability">2.3 Pillar 3 – Feature
+stability</h3>
+<p>If a gene list truly captures underlying biology, it should recur
+across CV folds.<br />
+We visualise overlap with an <strong>UpSet plot</strong> and quantify
+pairwise <strong>Jaccard similarities</strong>.</p>
+</div>
+<div id="cca611d8" class="cell code" data-execution_count="26">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="fl">3.3</span>))</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>UpSet(from_memberships([</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>        <span class="bu">tuple</span>(<span class="ss">f&quot;Fold </span><span class="sc">{</span>i<span class="op">+</span><span class="dv">1</span><span class="sc">}</span><span class="ss">&quot;</span> <span class="cf">for</span> i,s <span class="kw">in</span> <span class="bu">enumerate</span>(fold_tops) <span class="cf">if</span> g <span class="kw">in</span> s)</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> g <span class="kw">in</span> <span class="bu">sorted</span>(<span class="bu">set</span>.union(<span class="op">*</span>fold_tops))]),</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>     subset_size<span class="op">=</span><span class="st">&quot;count&quot;</span>, show_counts<span class="op">=</span><span class="va">True</span>).plot()</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>plt.suptitle(<span class="ss">f&quot;Pillar 3a · UpSet of top-</span><span class="sc">{</span>TOP_GENES<span class="sc">}</span><span class="ss"> MI genes&quot;</span>)<span class="op">;</span> plt.show()</span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Jaccard matrix --------------------------------------------------------</span></span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> j(a,b): <span class="cf">return</span> <span class="bu">len</span>(a<span class="op">&amp;</span>b)<span class="op">/</span><span class="bu">len</span>(a<span class="op">|</span>b)</span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a>jmat <span class="op">=</span> np.array([[j(s1,s2) <span class="cf">for</span> s2 <span class="kw">in</span> fold_tops] <span class="cf">for</span> s1 <span class="kw">in</span> fold_tops])</span>
+<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a>sns.heatmap(jmat, annot<span class="op">=</span><span class="va">True</span>, cmap<span class="op">=</span><span class="st">&quot;viridis&quot;</span>,</span>
+<span id="cb21-13"><a href="#cb21-13" aria-hidden="true" tabindex="-1"></a>            xticklabels<span class="op">=</span>[<span class="ss">f&quot;F</span><span class="sc">{</span>i<span class="op">+</span><span class="dv">1</span><span class="sc">}</span><span class="ss">&quot;</span> <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(N_SPLITS)],</span>
+<span id="cb21-14"><a href="#cb21-14" aria-hidden="true" tabindex="-1"></a>            yticklabels<span class="op">=</span>[<span class="ss">f&quot;F</span><span class="sc">{</span>i<span class="op">+</span><span class="dv">1</span><span class="sc">}</span><span class="ss">&quot;</span> <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(N_SPLITS)])</span>
+<span id="cb21-15"><a href="#cb21-15" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="ss">f&quot;Pillar 3b · Jaccard similarity (top-</span><span class="sc">{</span>TOP_GENES<span class="sc">}</span><span class="ss">)&quot;</span>)</span>
+<span id="cb21-16"><a href="#cb21-16" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()<span class="op">;</span> plt.show()</span></code></pre></div>
+<div class="output display_data">
+<pre><code>&lt;Figure size 880x363 with 0 Axes&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_72b8ae46d296453bae0f90993f1d47af/4213a378d6ddfd7befea3fe8386a00eb9f018ea2.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_72b8ae46d296453bae0f90993f1d47af/89d08603fe004e9d1b44962445e64473300ca773.png" /></p>
+</div>
+</div>
+<div id="5d126d4a" class="cell markdown">
+<p><strong>Section 2 take-aways</strong></p>
+<ul>
+<li><strong>Pillar 1</strong> – Validation AUROC ≈ 0.53; permutation
+<em>p</em> ≈ 0.07 → stage prediction is barely above chance, despite
+perfect training fit.<br />
+</li>
+<li><strong>Pillar 2</strong> – Accuracy swings from ≈ 0.31 (small “not
+reported”) to ≈ 0.65 (Black/African-American); calibration off-diagonal
+→ fairness concerns.<br />
+</li>
+<li><strong>Pillar 3</strong> – Only 1–5 genes overlap across folds;
+Jaccard &lt; 0.04 → “biomarkers” are unstable.</li>
+</ul>
+<p>In stark contrast with the tumour-normal task, the harder clinical
+label exposes true model limitations and highlights why reporting only
+headline AUROC on easy endpoints is misleading.</p>
+</div>
+</body>
+</html>
